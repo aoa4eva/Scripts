@@ -1,4 +1,6 @@
-    <# This file was written on GITHUB and is completely untested #>
+<# #>
+
+set-executionpolicy remotesigned
 try
 {
     git | Out-Null
@@ -6,7 +8,6 @@ try
 }
 catch [System.Management.Automation.CommandNotFoundException]
 {
-    set-executionpolicy remotesigned
 
     $gitLink="https://github.com/git-for-windows/git/releases/download/v2.15.1.windows.2/Git-2.15.1.2-64-bit.exe"
 
