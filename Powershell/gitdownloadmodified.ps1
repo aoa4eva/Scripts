@@ -5,12 +5,12 @@
 
 	My First Powershell script:
 
-
-
 	This script does the following: 
-
 	
-
+	1. Checks to see if Git installed before proceeding. If Git is installed, prompts user and exists.  
+	
+	OTHERWISE:
+	
 	1. Downloads GIT SCM for Windows
 
 	2. Opens up the exe file it was saved to (in the Dowloads folder) 
