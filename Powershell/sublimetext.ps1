@@ -10,3 +10,6 @@ Invoke-WebRequest -Uri $sublimedownload -OutFile $saveas
 Write-Output "This operation took $((Get-Date).Subtract($startop).Seconds) seconds to execute"
 & $saveas | Out-Null
 Remove-Item -path $saveas -recurse -force
+
+<# Not tested ...#>
+set-executionpolicy restricted
