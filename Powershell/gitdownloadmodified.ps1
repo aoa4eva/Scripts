@@ -1,5 +1,25 @@
-<# #>
 
+<# 
+
+	@aoa4eva: 23 Decmeber 2017
+
+	My First Powershell script:
+
+
+
+	This script does the following: 
+
+	
+
+	1. Downloads GIT SCM for Windows
+
+	2. Opens up the exe file it was saved to (in the Dowloads folder) 
+
+	3. Deletes the file once the user closes the Git Setup application. Note, the applicaction DOES NOT HAVE TO BE SUCCESSFUL to be deleted. 
+
+	
+
+#>
 set-executionpolicy remotesigned
 try
 {
