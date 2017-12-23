@@ -1,2 +1,2 @@
 # Scripts
-Useful scripts for setting up my working machine
+Useful scripts for setting up my machine for work
